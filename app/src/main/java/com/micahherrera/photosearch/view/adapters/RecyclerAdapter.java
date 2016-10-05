@@ -15,10 +15,6 @@ import com.squareup.picasso.Picasso;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by micahherrera on 9/30/16.
- */
-
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyRecyclerViewHolder>  implements ItemTouchHelperAdapter{
     LayoutInflater inflater;
     List<Photo_> photoList;

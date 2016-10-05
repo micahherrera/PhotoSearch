@@ -1,9 +1,5 @@
 package com.micahherrera.photosearch.view.adapters;
 
-/**
- * Created by micahherrera on 10/5/16.
- */
-
 public interface ItemTouchHelperAdapter {
 
 

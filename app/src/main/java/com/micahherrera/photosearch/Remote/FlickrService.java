@@ -6,9 +6,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-/**
- * Created by micahherrera on 9/29/16.
- */
 
 public interface FlickrService {
 

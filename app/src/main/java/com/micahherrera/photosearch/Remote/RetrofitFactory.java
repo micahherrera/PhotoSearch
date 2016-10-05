@@ -3,9 +3,7 @@ package com.micahherrera.photosearch.Remote;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by micahherrera on 9/30/16.
- */
+
 
 public class RetrofitFactory {
     public static String BASE_URL = "https://api.flickr.com/services/rest/";
