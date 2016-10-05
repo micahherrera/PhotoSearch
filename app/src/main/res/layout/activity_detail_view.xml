@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.micahherrera.photosearch.DetailView">
+
+    <ImageView
+        android:id="@+id/photoDetail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+    <TextView
+        android:id="@+id/photoText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:text="something"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="25sp"
+        />
+
+</LinearLayout>
